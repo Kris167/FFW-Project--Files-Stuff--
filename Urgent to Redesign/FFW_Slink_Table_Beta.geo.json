@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.FFW_Slink_Table_Beta",
+				"texture_width": 72,
+				"texture_height": 72,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main2",
+					"pivot": [0, 12.1, 0],
+					"cubes": [
+						{"origin": [-8.5, 8.1, -8.5], "size": [17, 8, 17], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "bb_main",
+					"parent": "bb_main2",
+					"pivot": [0, 8.6, 0],
+					"cubes": [
+						{"origin": [-8, 14, -8], "size": [16, 2, 16], "uv": [0, 0]},
+						{"origin": [-7, 0, 5], "size": [2, 14, 2], "uv": [0, 0]},
+						{"origin": [5, 0, 5], "size": [2, 14, 2], "uv": [0, 0]},
+						{"origin": [-7, 0, -7], "size": [2, 14, 2], "uv": [0, 0]},
+						{"origin": [5, 0, -7], "size": [2, 14, 2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

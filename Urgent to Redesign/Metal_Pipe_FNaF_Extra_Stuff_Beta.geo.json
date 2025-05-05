@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Metal_Pipe_FNaF_Extra_Stuff_Beta",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Pipe",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-8, 4, -4], "size": [2, 8, 8], "uv": [24, 12]},
+						{"origin": [-6, 5, -3], "size": [12, 6, 6], "uv": [0, 0]},
+						{"origin": [6, 4, -4], "size": [2, 8, 8], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "ValvePart",
+					"parent": "Pipe",
+					"pivot": [0, 10.46667, -2.4714],
+					"cubes": [
+						{"origin": [-1, 11.40711, -5.91421], "size": [2, 2, 3], "inflate": -0.1, "pivot": [0, 12.40711, -4.41421], "rotation": [-45, 0, 0], "uv": [36, 6]},
+						{"origin": [-1.5, 9.49289, -4.5], "size": [3, 3, 3], "pivot": [0, 10.99289, -3], "rotation": [-45, 0, 0], "uv": [20, 36]},
+						{"origin": [-2.5, 4.5, -3.5], "size": [5, 7, 7], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "Wheel",
+					"parent": "ValvePart",
+					"pivot": [0, 13.71525, -5.81378],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-1, 12.64454, -6.24308], "size": [2, 2, 1], "inflate": 0.1, "pivot": [0, 13.64454, -5.74308], "rotation": [90, 0, 0], "uv": [0, 0]},
+						{"origin": [-2.5, 11.0006, -6.34914], "size": [5, 5, 1], "pivot": [0, 13.5006, -5.84914], "rotation": [-90, 0, 0], "uv": [36, 0]},
+						{"origin": [-3.5, 10.5006, -6.34914], "size": [7, 7, 1], "pivot": [0, 14.0006, -5.84914], "rotation": [-90, 0, 0], "uv": [20, 28]}
+					]
+				}
+			]
+		}
+	]
+}

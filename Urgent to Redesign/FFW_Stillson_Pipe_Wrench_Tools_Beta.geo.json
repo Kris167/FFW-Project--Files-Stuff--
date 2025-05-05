@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.FFW_Stillson_Pipe_Wrench_Tools_Beta",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 17.90857, 0.37857],
+					"cubes": [
+						{"origin": [-0.5, 22.91, -1.9], "size": [1, 1, 4], "inflate": -0.02, "uv": [14, 16]},
+						{"origin": [-0.5, 20.95, -2.95], "size": [1, 2, 5], "inflate": -0.02, "uv": [8, 9]},
+						{"origin": [-0.5, 18, -3], "size": [1, 1, 4], "inflate": 0.1, "uv": [20, 9]},
+						{"origin": [-0.5, 14, 1], "size": [1, 9, 2], "inflate": -0.025, "uv": [8, 16]},
+						{"origin": [-0.5, 17, -3], "size": [1, 2, 7], "uv": [8, 0]},
+						{"origin": [-0.5, 16, 1], "size": [1, 1, 2], "uv": [0, 20]},
+						{"origin": [-0.5, 0, -2], "size": [1, 17, 3], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

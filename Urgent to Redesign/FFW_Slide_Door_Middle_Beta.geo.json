@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.FFW_Slide_Door_Middle_Beta",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [-3.5, 8, 0],
+					"cubes": [
+						{"origin": [-8, 0, -1], "size": [16, 16, 2], "uv": [0, 0]},
+						{"origin": [-8, 0, -1.5], "size": [2, 16, 3], "inflate": 0.01, "uv": [0, 18]}
+					]
+				}
+			]
+		}
+	]
+}
