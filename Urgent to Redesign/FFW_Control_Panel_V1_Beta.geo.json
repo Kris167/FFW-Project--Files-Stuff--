@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.FFW_Control_Panel_V1_Beta",
+				"texture_width": 104,
+				"texture_height": 104,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [1.16667, 11.71201, -2.31087],
+					"cubes": [
+						{"origin": [-9.5, 15.42, -2], "size": [19, 13, 10], "uv": [0, 46]},
+						{"origin": [-9.5, 1.5, -1], "size": [19, 14, 9], "uv": [0, 69]},
+						{"origin": [6.5, 15.06232, -8.02455], "size": [1, 1, 4], "pivot": [7, 15.56232, -6.02455], "rotation": [5, 0, 0], "uv": [0, 0]},
+						{"origin": [-9.5, 15.24248, -12.04167], "size": [19, 0, 10], "pivot": [0, 15.24248, -7.04167], "rotation": [5, 0, 0], "uv": [39, 21]},
+						{"origin": [-9.5, 1.04728, -11.36898], "size": [19, 14, 11], "pivot": [0, 8.04728, -5.86898], "rotation": [5, 0, 0], "uv": [0, 21]},
+						{"origin": [-9.6, 0, -10.98], "size": [19.2, 2, 19.1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
