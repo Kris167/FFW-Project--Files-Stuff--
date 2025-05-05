@@ -1,0 +1,41 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Welding_Mask",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "welder_mask",
+					"pivot": [0, 29, 1],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 1, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "glass",
+					"parent": "welder_mask",
+					"pivot": [0, 27.5, -4.5],
+					"cubes": [
+						{"origin": [-3.35, 25.87, -6.4], "size": [6.7, 3, 1], "inflate": 0.4, "uv": [18, 16]}
+					]
+				},
+				{
+					"name": "protective_filter",
+					"parent": "welder_mask",
+					"pivot": [0, 30.28368, -7.15356],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-3.35, 29.25, -8.85], "size": [6.7, 2, 3], "inflate": 0.5, "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}
