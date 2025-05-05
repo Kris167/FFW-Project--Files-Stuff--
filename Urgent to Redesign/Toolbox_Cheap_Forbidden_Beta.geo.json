@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Toolbox_Cheap_Forbidden_Beta",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 6.4, 0],
+					"cubes": [
+						{"origin": [6.5, 6.5, -1], "size": [0, 2, 2], "uv": [0, 27]},
+						{"origin": [-7, 7, -0.5], "size": [14, 1, 1], "uv": [0, 25]},
+						{"origin": [-6.5, 6.5, -1], "size": [0, 2, 2], "uv": [4, 27]},
+						{"origin": [-5.5, 5, -4], "size": [11, 4, 8], "uv": [0, 13]},
+						{"origin": [-6, 0, -4], "size": [12, 5, 8], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

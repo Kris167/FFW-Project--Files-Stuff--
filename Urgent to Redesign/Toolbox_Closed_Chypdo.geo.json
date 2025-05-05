@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Toolbox_Closed_Chypdo",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 4.66667, 0],
+					"cubes": [
+						{"origin": [-6, 7, 0], "size": [12, 3, 0], "uv": [0, 14]},
+						{"origin": [-6, 0, -3.5], "size": [12, 7, 7], "uv": [0, 0]},
+						{"origin": [-6.25, 2, 1.5], "size": [0, 4, 1], "pivot": [-6.25, 4, 2], "rotation": [27.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-6.25, 2, -2.5], "size": [0, 4, 1], "pivot": [-6.25, 4, -2], "rotation": [-27.5, 0, 0], "uv": [2, 0]},
+						{"origin": [6.25, 2, 1.5], "size": [0, 4, 1], "pivot": [6.25, 4, 2], "rotation": [27.5, 0, 0], "uv": [5, 0]},
+						{"origin": [6.25, 2, -2.5], "size": [0, 4, 1], "pivot": [6.25, 4, -2], "rotation": [-27.5, 0, 0], "uv": [4, 0]}
+					]
+				}
+			]
+		}
+	]
+}

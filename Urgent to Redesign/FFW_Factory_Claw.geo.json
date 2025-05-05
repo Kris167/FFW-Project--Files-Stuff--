@@ -1,0 +1,154 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "ClawChain",
+					"pivot": [-0.5, 0, 0.5],
+					"cubes": [
+						{"origin": [-1.5, 29, -0.5], "size": [3, 5, 1], "pivot": [0, 32.5, 0], "rotation": [0, -90, 0], "uv": [1, 1]},
+						{"origin": [-1.5, 32, -0.5], "size": [3, 5, 1], "uv": [1, 1]},
+						{"origin": [-1.5, 38, -0.5], "size": [3, 5, 1], "uv": [1, 1]},
+						{"origin": [-1.5, 35, -0.5], "size": [3, 5, 1], "pivot": [0, 38.5, 0], "rotation": [0, -90, 0], "uv": [1, 1]},
+						{"origin": [-1.5, 44, -0.5], "size": [3, 5, 1], "uv": [1, 1]},
+						{"origin": [-1.5, 41, -0.5], "size": [3, 5, 1], "pivot": [0, 44.5, 0], "rotation": [0, -90, 0], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "The_Claw",
+					"parent": "ClawChain",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 23, -5], "size": [10, 2, 10], "uv": [0, 0]},
+						{"origin": [-3, 25, -3], "size": [6, 3, 6], "uv": [36, 12]},
+						{"origin": [-3.5, 12, -3.5], "size": [7, 9, 7], "uv": [0, 23]},
+						{"origin": [-4.5, 11, -4.5], "size": [2, 5, 2], "uv": [54, 21]},
+						{"origin": [2.5, 11, -4.5], "size": [2, 5, 2], "uv": [54, 28]},
+						{"origin": [-1.5, 13, -5], "size": [3, 2, 10], "uv": [28, 23]},
+						{"origin": [-1.5, 13, -5], "size": [3, 2, 10], "pivot": [0, 14, 0], "rotation": [0, 90, 0], "uv": [28, 35]},
+						{"origin": [2.5, 11, 2.5], "size": [2, 5, 2], "uv": [54, 35]},
+						{"origin": [-4.5, 11, 2.5], "size": [2, 5, 2], "uv": [44, 55]},
+						{"origin": [-4.5, 21, -4.5], "size": [9, 2, 9], "uv": [0, 12]},
+						{"origin": [-1.5, 26, -0.5], "size": [3, 5, 1], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "Claw1",
+					"parent": "The_Claw",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "ClawJoint1",
+					"parent": "Claw1",
+					"pivot": [0, 13.7, -4.6],
+					"cubes": [
+						{"origin": [-1, 12.5, -14], "size": [2, 2, 10], "uv": [0, 39]},
+						{"origin": [-2, 12.6, -15.6], "size": [1, 1, 9], "uv": [40, 0]},
+						{"origin": [-3, 12.6, -11.6], "size": [1, 1, 5], "uv": [0, 51]},
+						{"origin": [2, 12.6, -11.6], "size": [1, 1, 5], "uv": [12, 51]},
+						{"origin": [1, 12.6, -15.6], "size": [1, 1, 9], "uv": [24, 47]}
+					]
+				},
+				{
+					"name": "ClawLowerJoint1",
+					"parent": "ClawJoint1",
+					"pivot": [0, 13.1, -15.1],
+					"cubes": [
+						{"origin": [-1, 12.5, -20.5], "size": [2, 2, 6], "uv": [44, 47]},
+						{"origin": [-0.5, 12.8, -22.5], "size": [1, 1, 2], "uv": [54, 42]}
+					]
+				},
+				{
+					"name": "Claw2",
+					"parent": "The_Claw",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0]
+				},
+				{
+					"name": "ClawJoint2",
+					"parent": "Claw2",
+					"pivot": [0, 13.7, -4.6],
+					"cubes": [
+						{"origin": [-1, 12.5, -14], "size": [2, 2, 10], "uv": [0, 39]},
+						{"origin": [-2, 12.6, -15.6], "size": [1, 1, 9], "uv": [40, 0]},
+						{"origin": [-3, 12.6, -11.6], "size": [1, 1, 5], "uv": [0, 51]},
+						{"origin": [2, 12.6, -11.6], "size": [1, 1, 5], "uv": [12, 51]},
+						{"origin": [1, 12.6, -15.6], "size": [1, 1, 9], "uv": [24, 47]}
+					]
+				},
+				{
+					"name": "ClawLowerJoint2",
+					"parent": "ClawJoint2",
+					"pivot": [0, 13.1, -15.1],
+					"cubes": [
+						{"origin": [-1, 12.5, -20.5], "size": [2, 2, 6], "uv": [44, 47]},
+						{"origin": [-0.5, 12.8, -22.5], "size": [1, 1, 2], "uv": [54, 42]}
+					]
+				},
+				{
+					"name": "Claw3",
+					"parent": "The_Claw",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "ClawJoint3",
+					"parent": "Claw3",
+					"pivot": [0, 13.7, -4.6],
+					"cubes": [
+						{"origin": [-1, 12.5, -14], "size": [2, 2, 10], "uv": [0, 39]},
+						{"origin": [-2, 12.6, -15.6], "size": [1, 1, 9], "uv": [40, 0]},
+						{"origin": [-3, 12.6, -11.6], "size": [1, 1, 5], "uv": [0, 51]},
+						{"origin": [2, 12.6, -11.6], "size": [1, 1, 5], "uv": [12, 51]},
+						{"origin": [1, 12.6, -15.6], "size": [1, 1, 9], "uv": [24, 47]}
+					]
+				},
+				{
+					"name": "ClawLowerJoint3",
+					"parent": "ClawJoint3",
+					"pivot": [0, 13.1, -15.1],
+					"cubes": [
+						{"origin": [-1, 12.5, -20.5], "size": [2, 2, 6], "uv": [44, 47]},
+						{"origin": [-0.5, 12.8, -22.5], "size": [1, 1, 2], "uv": [54, 42]}
+					]
+				},
+				{
+					"name": "Claw4",
+					"parent": "The_Claw",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "ClawJoint4",
+					"parent": "Claw4",
+					"pivot": [0, 13.7, -4.6],
+					"cubes": [
+						{"origin": [-1, 12.5, -14], "size": [2, 2, 10], "uv": [0, 39]},
+						{"origin": [-2, 12.6, -15.6], "size": [1, 1, 9], "uv": [40, 0]},
+						{"origin": [-3, 12.6, -11.6], "size": [1, 1, 5], "uv": [0, 51]},
+						{"origin": [2, 12.6, -11.6], "size": [1, 1, 5], "uv": [12, 51]},
+						{"origin": [1, 12.6, -15.6], "size": [1, 1, 9], "uv": [24, 47]}
+					]
+				},
+				{
+					"name": "ClawLowerJoint4",
+					"parent": "ClawJoint4",
+					"pivot": [0, 13.1, -15.1],
+					"cubes": [
+						{"origin": [-1, 12.5, -20.5], "size": [2, 2, 6], "uv": [44, 47]},
+						{"origin": [-0.5, 12.8, -22.5], "size": [1, 1, 2], "uv": [54, 42]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.FFW_Old_Security_Camera_Beta",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "SegurityCamera",
+					"pivot": [0, 0.9375, 3.25],
+					"cubes": [
+						{"origin": [-1.5, -1, 7], "size": [3, 5, 1], "uv": [24, 0]},
+						{"origin": [-1, -0.6, 2], "size": [2, 2, 5], "uv": [16, 19]},
+						{"origin": [-1.5, -1, -1], "size": [3, 3.5, 3], "uv": [22, 10]},
+						{"origin": [-2, 0.1, -1.5], "size": [4, 2, 4], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "CameraRotation",
+					"parent": "SegurityCamera",
+					"pivot": [0, 3.3, 0.5],
+					"cubes": [
+						{"origin": [-1, 1.8, -0.5], "size": [2, 3, 2], "uv": [0, 25]},
+						{"origin": [-0.5, 1.8, -0.5], "size": [1, 3, 2], "inflate": 0.01, "uv": [8, 25]}
+					]
+				},
+				{
+					"name": "CamHead",
+					"parent": "SegurityCamera",
+					"pivot": [0.65, 5.25, -1.75],
+					"cubes": [
+						{"origin": [-2.5, 4.1, -3.5], "size": [5, 3, 7], "uv": [0, 0]},
+						{"origin": [-2.5, 4.1, -3.6], "size": [5, 3, 6], "inflate": 0.1, "uv": [0, 10]},
+						{"origin": [0.8, 4.4, -3.8], "size": [1, 1, 2], "inflate": 0.1, "uv": [22, 16]},
+						{"origin": [0.8, 4.4, -4.1], "size": [1, 1, 1], "inflate": -0.1, "uv": [20, 26]}
+					]
+				},
+				{
+					"name": "Lens",
+					"parent": "CamHead",
+					"pivot": [-1.2, 5.6, -3.6],
+					"cubes": [
+						{"origin": [-2.2, 4.6, -4.7], "size": [2, 2, 2], "inflate": -0.1, "uv": [24, 6]},
+						{"origin": [-2.2, 4.6, -4.3], "size": [2, 2, 1], "inflate": -0.15, "uv": [14, 26]}
+					]
+				}
+			]
+		}
+	]
+}
