@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Factory_Illustration_In_The_Present_Days",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "sign",
+					"pivot": [0, 23, 7.5],
+					"cubes": [
+						{"origin": [-12, 0, 7], "size": [24, 46, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
