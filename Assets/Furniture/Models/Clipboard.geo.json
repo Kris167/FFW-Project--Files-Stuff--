@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Clipboard",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "clipboard",
+					"pivot": [0, 0.74248, 2.52384],
+					"cubes": [
+						{"origin": [-4.5, 0, -5.5], "size": [9, 1, 11], "uv": [0, 0]},
+						{"origin": [-2.5, 0.48496, 4.04769], "size": [5, 1, 2], "inflate": 0.1, "pivot": [0, 0.98496, 5.04769], "rotation": [-17.5, 0, 0], "uv": [32, 12]}
+					]
+				},
+				{
+					"name": "papers",
+					"parent": "clipboard",
+					"pivot": [-0.00971, 1.10333, -0.01489],
+					"cubes": [
+						{"origin": [-3.5, 1.2, -4.5], "size": [7, 0, 9], "uv": [0, 12]},
+						{"origin": [-3.50559, 1.1, -4.50824], "size": [7, 0, 9], "pivot": [-0.00559, 1.1, -0.00824], "rotation": [0, 2.5, 0], "uv": [0, 21]},
+						{"origin": [-3.52355, 1.01, -4.53644], "size": [7, 0, 9], "pivot": [-0.02355, 1.01, -0.03644], "rotation": [0, -5, 0], "uv": [0, 30]}
+					]
+				}
+			]
+		}
+	]
+}
