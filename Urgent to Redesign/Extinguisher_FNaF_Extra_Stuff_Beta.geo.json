@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Extinguisher_FNaF_Extra_Stuff_Beta",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0.79071, 15.57042, 0.4],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [1.42678, 18.66421, 0.5], "size": [2, 2, 1], "pivot": [2.42678, 19.66421, 1], "rotation": [0, 0, -45], "uv": [26, 26]},
+						{"origin": [-1.57322, 18.25, 0.5], "size": [4, 0, 1], "uv": [8, 26]},
+						{"origin": [1.1, 15.79289, -1], "size": [0, 2, 2], "pivot": [1.1, 16.79289, 0], "rotation": [-45, 0, 0], "uv": [8, 27]},
+						{"origin": [-1, 15, -1], "size": [2, 1.29, 2], "uv": [18, 26]},
+						{"origin": [-2.5, 0, -2.5], "size": [5, 15, 5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 18.33413, 1.48533],
+					"cubes": [
+						{"origin": [-1, 16.29, -1], "size": [2, 3, 2], "inflate": 0.01, "uv": [20, 15]},
+						{"origin": [-0.5, 17.45, 0.54328], "size": [1, 2, 1], "uv": [28, 15]},
+						{"origin": [-1, 18.45, 0.54328], "size": [2, 1, 1], "inflate": -0.01, "uv": [12, 27]},
+						{"origin": [-1, 15.86845, -0.12287], "size": [2, 1, 7], "pivot": [0, 16.36845, 3.37713], "rotation": [-32.5, 0, 0], "uv": [20, 0]},
+						{"origin": [-1, 19.47611, -1.03702], "size": [2, 1, 6], "pivot": [0, 19.97611, 1.96298], "rotation": [22.5, 0, 0], "uv": [20, 8]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone",
+					"pivot": [0, 8.91, -2.9],
+					"cubes": [
+						{"origin": [-0.5, 1.75, -4], "size": [1, 16, 3], "uv": [0, 20]},
+						{"origin": [-0.5, 4.05, -4], "size": [1, 1, 1], "inflate": 0.25, "uv": [28, 21]},
+						{"origin": [-0.5, 1.75, -4], "size": [1, 2, 1], "inflate": 0.15, "uv": [28, 18]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone",
+					"pivot": [0, 7.5, -1.75],
+					"cubes": [
+						{"origin": [-2.5, 7, -2.5], "size": [5, 1, 5], "inflate": 0.25, "uv": [8, 20]},
+						{"origin": [-0.5, 7, -4], "size": [1, 1, 1], "inflate": 0.25, "uv": [28, 23]}
+					]
+				}
+			]
+		}
+	]
+}
