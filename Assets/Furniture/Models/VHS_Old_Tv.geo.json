@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.VHS_Old_Tv",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "old_tv",
+					"pivot": [0, 5.26249, 2.50287],
+					"cubes": [
+						{"origin": [-6.5, 4.49994, 5.50712], "size": [13, 9, 3], "pivot": [0, 8.99994, 7.00712], "rotation": [-1, 0, 0], "uv": [0, 44]},
+						{"origin": [-7.5, 3.50002, -3.49562], "size": [15, 12, 9], "pivot": [0, 9.50002, 1.00438], "rotation": [-1, 0, 0], "uv": [0, 0]},
+						{"origin": [-8, 0.55, -4], "size": [16, 3, 10], "uv": [0, 21]},
+						{"origin": [-7.5, 0, -3.5], "size": [15, 1, 9], "uv": [0, 34]}
+					]
+				}
+			]
+		}
+	]
+}

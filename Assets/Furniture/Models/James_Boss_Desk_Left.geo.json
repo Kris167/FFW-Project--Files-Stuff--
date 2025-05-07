@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.James_Boss_Desk_Left",
+				"texture_width": 96,
+				"texture_height": 96,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "left_desk",
+					"pivot": [3.6, 9.3, 0.7],
+					"cubes": [
+						{"origin": [-8, 14, -10], "size": [18, 2, 18], "uv": [0, 0]},
+						{"origin": [7, 11, -8], "size": [3, 3, 15], "uv": [58, 40]},
+						{"origin": [7, 7, 5], "size": [3, 4, 2], "uv": [58, 58]},
+						{"origin": [-7, 3, -8], "size": [14, 11, 15], "uv": [0, 40]},
+						{"origin": [-8, 0, -9], "size": [16, 3, 17], "uv": [0, 20]}
+					]
+				}
+			]
+		}
+	]
+}
