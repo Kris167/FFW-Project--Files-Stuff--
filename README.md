@@ -1,2 +1,2 @@
 # FFW-Project--Files-Stuff--
-Project VHS Serie just for fun
+VHS Project Analog Horror Series just for fun
