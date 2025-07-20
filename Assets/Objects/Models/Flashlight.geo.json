@@ -1,0 +1,53 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Flashlight",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "flashlight",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1.5, 0.5, -4.5],
+							"size": [3, 3, 0],
+							"uv": {
+								"north": {"uv": [8, 20], "uv_size": [6, 6]}
+							}
+						},
+						{
+							"origin": [-1.5, 0.5, -5.5],
+							"size": [3, 3, 4],
+							"uv": {
+								"east": {"uv": [0, 6], "uv_size": [8, 6]},
+								"south": {"uv": [8, 6], "uv_size": [6, 6]},
+								"west": {"uv": [8, 6], "uv_size": [-8, 6]},
+								"up": {"uv": [6, 20], "uv_size": [-6, -8]},
+								"down": {"uv": [6, 12], "uv_size": [-6, 8]}
+							}
+						},
+						{
+							"origin": [-1, 1, -1.5],
+							"size": [2, 2, 6],
+							"uv": {
+								"north": {"uv": [14, 12], "uv_size": [6, 6]},
+								"east": {"uv": [18, 28], "uv_size": [-12, 4]},
+								"south": {"uv": [10, 8], "uv_size": [4, 4]},
+								"west": {"uv": [6, 28], "uv_size": [12, 4]},
+								"up": {"uv": [6, 32], "uv_size": [-4, -12]},
+								"down": {"uv": [6, 32], "uv_size": [12, -4], "uv_rotation": 90}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
