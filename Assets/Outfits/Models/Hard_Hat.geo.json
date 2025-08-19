@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Hard_Hat",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "hard_hat",
+					"pivot": [0, 30.49967, -0.33333],
+					"cubes": [
+						{
+							"origin": [-1.5, 29, -5.5],
+							"size": [3, 5, 11],
+							"uv": {
+								"north": {"uv": [15, 24], "uv_size": [3, 5]},
+								"east": {"uv": [18, 15], "uv_size": [11, 5]},
+								"south": {"uv": [18, 25], "uv_size": [3, 5]},
+								"west": {"uv": [18, 20], "uv_size": [11, 5]},
+								"up": {"uv": [9, 24], "uv_size": [3, 11]},
+								"down": {"uv": [12, 35], "uv_size": [3, -11]}
+							}
+						},
+						{
+							"origin": [-4.5, 29, -4.5],
+							"size": [9, 4, 9],
+							"uv": {
+								"north": {"uv": [22, 0], "uv_size": [9, 4]},
+								"east": {"uv": [22, 4], "uv_size": [9, 4]},
+								"south": {"uv": [22, 8], "uv_size": [9, 4]},
+								"west": {"uv": [0, 24], "uv_size": [9, 4]},
+								"up": {"uv": [0, 15], "uv_size": [9, 9]},
+								"down": {"uv": [9, 24], "uv_size": [9, -9]}
+							}
+						},
+						{
+							"origin": [-5.5, 28.999, -8.5],
+							"size": [11, 0, 15],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [11, 0]},
+								"east": {"uv": [0, 0], "uv_size": [15, 0]},
+								"south": {"uv": [0, 0], "uv_size": [11, 0]},
+								"west": {"uv": [0, 0], "uv_size": [15, 0]},
+								"up": {"uv": [0, 0], "uv_size": [11, 15]},
+								"down": {"uv": [11, 15], "uv_size": [11, -15]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
